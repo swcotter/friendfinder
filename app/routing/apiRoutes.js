@@ -1,5 +1,5 @@
 var friends = require("../data/friends");
-//var officeCharacters = require("../data/officeCharacters");
+var officeCharacters = require("../data/cars");
 
 module.exports = function (app) {
     // Displays all characters
@@ -7,9 +7,9 @@ module.exports = function (app) {
         return res.json(friends);
     });
 
-    /*app.get("/api/officeCharacters", function (req, res) {
-        return res.json(officeCharacters);
-    });*/
+    app.get("/api/cars", function (req, res) {
+        return res.json(cars);
+    });
 
     // Create New Characters - takes in JSON input
     app.post("/api/friends", function (req, res) {
