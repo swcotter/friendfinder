@@ -1,0 +1,23 @@
+{
+  "name": "friendfinder",
+  "version": "1.0.0",
+  "description": "uw homework",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swcotter/friendfinder.git"
+  },
+  "author": "Sam Cotter",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/swcotter/friendfinder/issues"
+  },
+  "homepage": "https://github.com/swcotter/friendfinder#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
